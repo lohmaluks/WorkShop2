@@ -8,19 +8,11 @@
 #   *******
 #  *********
 
-height = int(input("Enter your height :"))
-for x in range(height, 0, -1):
-    print((x * " " + (height - x) * "*") + "*" + ((height - x) * "*") + (x * " "))
-
 # input: height = 3
 # outpu:
 #    *
 #   ***
 #  *****
-
-height = int(input("Enter your height :"))
-for x in range(height, 0, -1):
-    print((x * " " + (height - x) * "*") + "*" + ((height - x) * "*") + (x * " "))
 
 # input: height = 10
 # outpu:
@@ -35,6 +27,7 @@ for x in range(height, 0, -1):
 #   *****************
 #  *******************
 
-height = int(input("Enter your height :"))
-for x in range(height, 0, -1):
-    print((x * " " + (height - x) * "*") + "*" + ((height - x) * "*") + (x * " "))
+for i in range(3):
+    height = int(input("Enter your height :"))
+    for x in range(height, 0, -1):
+        print((x * " " + (height - x) * "*") + "*" + ((height - x) * "*") + (x * " "))
